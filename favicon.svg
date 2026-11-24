@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="青い地球を包む清らかな水">
+  <defs>
+    <radialGradient id="ocean" cx="32%" cy="25%" r="85%"><stop stop-color="#30b8ec"/><stop offset=".55" stop-color="#0876cd"/><stop offset="1" stop-color="#103d96"/></radialGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#81edff"/><stop offset=".48" stop-color="#26bce7"/><stop offset="1" stop-color="#0872cb"/></linearGradient>
+    <clipPath id="earth"><circle cx="32" cy="30" r="23"/></clipPath>
+  </defs>
+  <circle cx="32" cy="30" r="23" fill="url(#ocean)"/>
+  <g clip-path="url(#earth)" fill="#c6f5fa">
+    <path d="M13 12l9-4 10 1 1 5-5 4 1 4-5 3-1 5-5-1-2-5-5-2zM24 30l7 2 3 5-3 5-2 8-4-3-1-7-4-5zM39 9l9 3 8 9-3 5-7-2-3 4-5-2-3-5 4-4-3-3zM44 39l6-1 4 5-3 3-8-2z"/>
+  </g>
+  <path d="M7 32c-3 12 8 24 24 25 14 1 25-7 28-17-9 9-19 12-30 9C18 46 11 40 7 32z" fill="url(#water)"/>
+  <path d="M8 33c7 13 27 22 43 13" fill="none" stroke="#fff" stroke-width="2.7" stroke-linecap="round"/>
+  <path d="M51 2c0 0-6 7-6 11a6 6 0 0 0 12 0c0-4-6-11-6-11z" fill="#50d8f5" stroke="#fff" stroke-width="1.7"/>
+  <path d="M49 14c-1-1-1-2 0-4" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+</svg>
